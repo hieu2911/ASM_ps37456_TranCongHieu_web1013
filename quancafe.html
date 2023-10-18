@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="h.css">
+    <link rel="stylesheet" href="body.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>highlandscoffee</title>
+</head>
+<body>
+    <div id="container">
+        <header class="col-full header">
+            <div class="logo ">
+               <a href="index.html"><img src="hinhanh/White_logo800.png" ></a>
+    
+    
+            </div>
+    
+    
+        <div class="menutool">
+            <div class="tool">
+                <div class="search col-full">
+                    <div class="search1">
+                        <form id="formsearch" action="" method="post" class="box-search">
+                            <input type="text" placeholder="Từ khóa" value>
+                        
+                        <input name="do_search" value="1" type="hidden"></form>
+                    </div>
+                    <div class="search2">
+                        <img src="hinhanh/flag-vn.jpg" alt="">
+                        <img src="hinhanh/flag-en.jpg" alt="">
+                    </div>
+                    
+                </div>                
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="quancafe.html">QUÁN CÀ PHÊ</a></li>
+                    <li><a href="caphe.html">THỰC ĐƠN</a>
+                    <ul class="subnav">
+                        <li><a href="caphe.html">CÀ PHÊ</a></li>
+                        <li><a href="freeze.html">FREEZE</a></li>
+                        <li><a href="tra.html">TRÀ</a></li>
+                        <li><a href="khac.html">KHÁC</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="tintuc.html">TIN TỨC</a></li>
+                    <li><a href="congdong.html">CỘNG ĐỒNG</a></li>
+                    <li><a href="VeChungToi.html">VỀ CHÚNG TÔI</a></li>
+                    <li><a href="#">NGHỀ NGHIỆP</a></li>
+                    <li><a href="#">MUA NGAY</a></li>
+                                    
+                </ul>
+    
+            </div>
+    
+        </div>
+        
+    
+        
+    </div>
+    <nav class="maps">
+        <div class="sub-map">
+        <div class="finds">
+            TÌM QUÁN CÀ PHÊ
+        </div>
+        <div class="formSearch" id="boxMapSearch">
+            <form name="modSearch" id="fromMapSearch" method="post" action="" onsubmit="return false">
+                <div class="gridF">
+                     
+                    <div class="col2">
+                        <div class="formFa fa-caret-down"><select id="country" name="country" class="form-control load_city load_state" data-city="city" data-state="state"><option value="VN" selected="">Việt Nam</option></select></div>
+                    </div>
+                    <div class="col2">
+                        <div class="formFa fa-caret-down"><select id="city" name="city" class="form-control load_state" data-state="state"><option value="">Chọn Thành phố</option><option value="1">Hà Nội</option><option value="2" selected="">TP. Hồ Chí Minh</option><option value="3">Hải Phòng</option><option value="4">Đà Nẵng</option><option value="5">Cần Thơ</option><option value="51">Bình Dương</option><option value="56">Đồng Nai</option><option value="60">Bà Rịa - Vũng Tàu</option><option value="40">Thừa Thiên - Huế</option><option value="10">Hà Giang</option><option value="16">Điện Biên</option><option value="17">Lạng Sơn</option><option value="18">Thái Nguyên</option><option value="19">Bắc Cạn</option><option value="7">Lai Châu</option><option value="20">Yên Bái</option><option value="6">Cao Bằng</option><option value="21">Sơn La</option><option value="22">Phú Thọ</option><option value="23">Vĩnh Phúc</option><option value="24">Quảng Ninh</option><option value="25">Bắc Ninh</option><option value="26">Bắc Giang</option><option value="27">Hà Tây</option><option value="28">Hòa Bình</option><option value="29">Hải Dương</option><option value="30">Hưng Yên</option><option value="31">Hà Nam</option><option value="32">Nam Định</option><option value="33">Thái Bình</option><option value="8">Lào Cai</option><option value="34">Thanh Hóa</option><option value="35">Ninh Bình</option><option value="9">Tuyên Quang</option><option value="36">Nghệ An</option><option value="37">Hà Tĩnh</option><option value="38">Quảng Bình</option><option value="39">Quảng Trị</option><option value="41">Quảng Nam</option><option value="42">Quảng Ngãi</option><option value="43">Kon Tum</option><option value="44">Bình Định</option><option value="45">Gia Lai</option><option value="46">Phú Yên</option><option value="47">Đắk Lắk</option><option value="48">Đắk Nông</option><option value="49">Khánh Hòa</option><option value="50">Lâm Đồng</option><option value="52">Bình Phước</option><option value="53">Ninh Thuận</option><option value="54">Tây Ninh</option><option value="55">Bình Thuận</option><option value="57">Long An</option><option value="58">Đồng Tháp</option><option value="59">An Giang</option><option value="61">Tiền Giang</option><option value="62">Kiên Giang</option><option value="63">Bến Tre</option><option value="64">Vĩnh Long</option><option value="65">Trà Vinh</option><option value="66">Sóc Trăng</option><option value="67">Hậu Giang</option><option value="68">Bạc Liêu</option><option value="69">Cà Mau</option></select></div>
+                    </div>
+                    <div class="col2">
+                        <div class="formFa fa-caret-down"><select id="state" name="state" class="form-control">&lt;<option value="">Chọn Quận/Huyện</option><option value="1">Quận 1</option><option value="2">Quận 2</option><option value="3">Quận 3</option><option value="4">Quận 4</option><option value="5">Quận 5</option><option value="6">Quận 6</option><option value="7">Quận 7</option><option value="8">Quận 8</option><option value="9">Quận 9</option><option value="10">Quận 10</option><option value="11">Quận 11</option><option value="12">Quận 12</option><option value="19">Quận Bình Tân</option><option value="16">Quận Bình Thạnh</option><option value="13">Quận Gò Vấp</option><option value="17">Quận Phú Nhuận</option><option value="14">Quận Tân Bình</option><option value="15">Quận Tân Phú</option><option value="18">Quận Thủ Đức</option><option value="20">Huyện Bình Chánh</option><option value="24">Huyện Cần Giờ</option><option value="21">Huyện Củ Chi </option><option value="22">Huyện Hóc Môn</option><option value="23">Huyện Nhà Bè</option></select></div>
+                    </div>
+                    <div class="col2">
+                        <div class="div_auto_complete">
+                            <input class="chosen-value" type="text" value="" placeholder="Tiện ích">
+                            <div class="dropdown_select list-filters">
+                                <ul>
+                                    <li data-id="6" data-text="Wifi Miễn Phí">
+                                        <span class="name">Wifi Miễn Phí</span><span class="icon"><i class="fa fa-wifi"></i></span>
+                                    </li>
+                                    
+                                    <li data-id="3" data-text="Thanh toán bằng thẻ">
+                                        <span class="name">Thanh toán bằng thẻ </span><span class="icon"><i class="fa fa-credit-card"></i></span>
+                                    </li>
+                                    <hr>
+                                </ul>
+                                <input type="hidden" class="input-value" name="utilities" id="utilities" value="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col3">
+                        <input type="text" placeholder="Nhập tên đường, hoặc quán..." name="key_search" id="key_search" class="form-control" autocomplete="off">
+                        <div class="search-suggestion-wrapper"></div>
+                    </div>
+                    <div class="col4">
+                        <button type="submit" name="btnSearch" id="btnSearch" class="btn-submit-search" value=""><span>Tìm kiếm</span></button>
+                    </div>
+                </div>
+        </form>
+        </div>
+        <div class="result_dealer">
+            <div class="result_info">
+                <div id="viewList" class="list-view">
+                    <div class="r-count">Tìm được <span id="map_num">233</span> quán</div>
+                    <div class="show-result result-wrapper" id="viewList">
+                        <div class="item-view"><div id="item_736" class="item" rel="736" zindex="1"><div class="info"><div class="name">Highlands Coffee Eco Green D7</div><div class="address">HR2SH, Block HR2, Eco Green Saigon - 107 Nguyễn Văn Linh, Tân Thuận Tây, Quận 7, HCMC</div><div class="phone"><span>028 7100 0107</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 22:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_734" class="item" rel="734" zindex="1"><div class="info"><div class="name">Highlands Coffee Vincom Lê Văn Việt</div><div class="address">Tầng L1, Vincom Plaza Lê Văn Việt, 50 Lê Văn Việt, Phường Hiệp Phú, Quận 9, Tp. Hồ Chí Minh</div><div class="phone"><span>(028) 3730 5888</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 22:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_729" class="item" rel="729" zindex="1"><div class="info"><div class="name">Highlands Coffee Nguyễn Văn Trỗi HCM</div><div class="address">88 Nguyễn Văn Trỗi, Phường 8, Quận Phú Nhuận, Tp.HCM</div><div class="phone"><span>028 7107 9088</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_725" class="item" rel="725" zindex="1"><div class="info"><div class="name">Highlands Coffee Nguyễn Đức Cảnh D7</div><div class="address">06 Nguyễn Đức Cảnh, Khu Mỹ Khánh 2-H4-2, Phường Tân Phong, Quận 7 Tp.HCM</div><div class="phone"><span>028 7108 6006</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 22:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_719" class="item" rel="719" zindex="1"><div class="info"><div class="name">Highlands Coffee 416 Phạm Văn Đồng - Bình Thạnh</div><div class="address">416 Phạm Văn Đồng, Phường 11, Quận Bình Thạnh, TP. HCM</div><div class="phone"><span>028 7100 0416</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_712" class="item" rel="712" zindex="1"><div class="info"><div class="name">Highlands Coffee Hùng Vương D5</div><div class="address">153 Hùng Vương, Phường 4, Quận 5, TP.HCM</div><div class="phone"><span>028 7100 0153</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_711" class="item" rel="711" zindex="1"><div class="info"><div class="name">Highlands Coffee Hà Đô Centrosa</div><div class="address">J-1. TM.03-1, Tầng 1, lô Jasmine, Hà Đô Centrosa Garden, Số 200, Đường 3 Tháng 2, P. 12, Q. 10 TP.HCM</div><div class="phone"><span>028 7108 0032</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_704" class="item" rel="704" zindex="1"><div class="info"><div class="name">Highlands Coffee D9 Tân Phú</div><div class="address">71 Đường D9, Phường Tây Thạnh, Quận Tân Phú, TP.HCM</div><div class="phone"><span>028 710 20071</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 22:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_703" class="item" rel="703" zindex="1"><div class="info"><div class="name">Highlands Coffee Crescent Mall</div><div class="address">GF-58B Crescent Mall, 101 Tôn Dật Tiên, Tân Phú, Quận 7, TP.HCM</div><div class="phone"><span>028 7108 8101</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 22:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_702" class="item" rel="702" zindex="1"><div class="info"><div class="name">Highlands Coffee Phan Huy Ích 2 - Tân Bình</div><div class="address">53 Phan Huy Ích, Phường 15, Quận Tân Bình, TP. Hồ Chí Minh</div><div class="phone"><span>028 7100 0053</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_701" class="item" rel="701" zindex="1"><div class="info"><div class="name">Highlands Coffee Lê Văn Thọ - Gò Vấp</div><div class="address">432 Lê Văn Thọ, Phường 16, Quận Gò Vấp, TP. Hồ Chí Minh</div><div class="phone"><span>028 7100 0432</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_698" class="item" rel="698" zindex="1"><div class="info"><div class="name">Highlands Coffee Đại Phúc Bình Chánh</div><div class="address">125 Đường Số 1, Lô 8, Khu 9A+B (9B8), Khu chức năng 9, Đô Thị Mới,Nam TP., Xã Bình Hưng, Huyện Bình Chánh</div><div class="phone"><span>028 7108 0106</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 22:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_690" class="item" rel="690" zindex="1"><div class="info"><div class="name">Highlands Coffee Sari Town Sala</div><div class="address">Shophouse 04-06 Saritown, Đường số 5, KĐT Sala, Phường An Lợi Đông, Tp. Thủ Đức, Tp. Hồ Chí Minh</div><div class="phone"><span>028 7100 0246</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_687" class="item" rel="687" zindex="1"><div class="info"><div class="name">Highlands Coffee To Ky 2 D12</div><div class="address">B55 Tô Ký, Đông Hưng Thuận, Quận 12, Tp. Hồ Chí Minh</div><div class="phone"><span>028 7108 0055</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_686" class="item" rel="686" zindex="1"><div class="info"><div class="name">Highlands Coffee Nguyen Anh Thu D12-2</div><div class="address">699 Nguyễn Ảnh Thủ, Hiệp Thành, Quận 12, Tp. Hồ Chí Minh</div><div class="phone"><span>028 7100 0699</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_683" class="item" rel="683" zindex="1"><div class="info"><div class="name">Highlands Coffee No.1 Bình Chánh</div><div class="address">Số 73 Đường số 1, Bình Hưng, Huyện Bình Chánh, TP. Hồ Chí Minh</div><div class="phone"><span>028 7100 0073</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 22:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_681" class="item" rel="681" zindex="1"><div class="info"><div class="name">Highlands Coffee Tan Son Nhat International Airport (Ga Quốc Tế)</div><div class="address">IAG06B-1, Khu Sảnh Quốc Tế đến (cánh trái), Sân bay Quốc Tế Tân Sơn Nhất - 45 Trường Sơn, Phường 2, Tân Bình, TP.HCM</div><div class="phone"><span>028 7102 0006</span></div><div class="timeopen"><span>Mở cửa</span>24 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_680" class="item" rel="680" zindex="1"><div class="info"><div class="name">Highlands Coffee Vạn Phúc City Thủ Đức</div><div class="address">54 Đường số 2, KĐT Vạ Phúc City 1, Phường Hiệp Bình Phước, TP. Thủ Đức, TP. HCM</div><div class="phone"><span>028 7100 0054</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_666" class="item" rel="666" zindex="1"><div class="info"><div class="name">Highlands Coffee 284 Hoa Binh Tan Phu</div><div class="address">284 Hòa Bình, P. Hiệp Tân, Q. Tân Phú, TP.HCM</div><div class="phone"><span>028 7100 0284</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_664" class="item" rel="664" zindex="1"><div class="info"><div class="name">Highlands Coffee 343 Ben Binh Dong D8</div><div class="address">343 Bến Bình Đông, P. 13, Quận 8, Tp. Hồ Chí Minh</div><div class="phone"><span>028 7100 0343</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_663" class="item" rel="663" zindex="1"><div class="info"><div class="name">Highlands Coffee Lê Thị Hà - Hóc Môn</div><div class="address">1/71A Lê Thị Hà, Xã Tân Xuân, Huyện Hóc Môn, Tp. Hồ Chí Minh</div><div class="phone"><span>028 7108 0171</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_662" class="item" rel="662" zindex="1"><div class="info"><div class="name">Highlands Coffee Nguyễn Văn Tăng - Thủ Đức</div><div class="address">327 Nguyễn Văn Tăng, Phường Long Thạnh Mỹ, TP. Thủ Đức, TP.HCM</div><div class="phone"><span>028 7100 0327</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_661" class="item" rel="661" zindex="1"><div class="info"><div class="name">Highlands Coffee TSN Airport-K4</div><div class="address">ID306-A, Khu Lầu 3, Sảnh Quốc Tế Đi, TSN International Airport - 45 Trường Sơn, Phường 2, Quận Tân Bình, TP. HCM</div><div class="phone"><span>(028) 7100 0306</span></div><div class="timeopen"><span>Mở cửa</span>00:00 – 24:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_647" class="item" rel="647" zindex="1"><div class="info"><div class="name">Highlands Coffee Chung Cu Bo Cong An</div><div class="address">Chung Cư Bộ Công An, 83 Đường số 3, An Khánh, Thủ Đức, Tp.HCM</div><div class="phone"><span>028 7108 0083</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_639" class="item" rel="639" zindex="1"><div class="info"><div class="name">Highlands Coffee 366 Le Van Quoi HCM</div><div class="address">366 Lê Văn Quới, Bình Hưng Hòa A, Quận Bình Tân, Thành phố Hồ Chí Minh</div><div class="phone"><span>(028) 7100 0366</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_638" class="item" rel="638" zindex="1"><div class="info"><div class="name">Highlands Coffee Ben Van Don HCM</div><div class="address">183 Bến Vân Đồn, Phường 6, Quận 4, HCM</div><div class="phone"><span>028 7108 8183</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_632" class="item" rel="632" zindex="1"><div class="info"><div class="name">Highlands Coffee CVPM Quang Trung HCM</div><div class="address">Tòa nhà QTSC 1, Công viên Phần mềm Quang Trung, Phường Tân Hiệp Chánh, Quận 12, TP.HCM</div><div class="phone"><span>(028) 7108 1114</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_631" class="item" rel="631" zindex="1"><div class="info"><div class="name">Highlands Coffee Thoai Ngoc Hau HCM</div><div class="address">124D - 124E Thọai Ngọc Hầu, Phú Thọ Hòa, Quận Tân Phú, TP.HCM</div><div class="phone"><span>028 7100 0124</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_629" class="item" rel="629" zindex="1"><div class="info"><div class="name">Highlands Coffee VH Grand Park 2</div><div class="address">Số 1.04, TẦNG 1, TÒA NHÀ S5.01, Khu A - Dự án KDC và công viên Phước Thiện, Số 512 đường Nguyễn Xiển, KP Long Hòa, Long Thạnh Mỹ, TP. Thủ Đức, TP. HCM</div><div class="phone"><span>028 7100 0501</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_623" class="item" rel="623" zindex="1"><div class="info"><div class="name">Highlands Coffee Quoc Lo 13 ThuDuc</div><div class="address">131A-133-135 Quốc lộ 13, Phường Hiệp Bình Chánh, Thành phố Thủ Đức, TP.HCM</div><div class="phone"><span>02871000135</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_622" class="item" rel="622" zindex="1"><div class="info"><div class="name">Highlands Coffee BV Nhi Dong TPHCM</div><div class="address">15 Võ Trần Chí, P. Tân Kiên, H. Bình Chánh, TP.HCM</div><div class="phone"><span>028 7102 0015</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_618" class="item" rel="618" zindex="1"><div class="info"><div class="name">Highlands Coffee 213 Hoang Van Thu</div><div class="address">213 Hoàng Văn Thụ, P.8, Q. Phú Nhuận, TP.HCM</div><div class="phone"><span>028 7109 5213</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_609" class="item" rel="609" zindex="1"><div class="info"><div class="name">Highlands Coffee 925 Tan Ky Tan Quy</div><div class="address">925 Tân Kỳ Tân Quý, Bình Hưng Hoà A, Bình Tân, Tp. HCM</div><div class="phone"><span>028 7109 4925</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_608" class="item" rel="608" zindex="1"><div class="info"><div class="name">Highlands Coffee CoopXtra Linh Trung</div><div class="address">934 Quốc Lộ 1A phường Linh Trung, Thủ Đức TP.HCM</div><div class="phone"><span>028 7109 6934</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_603" class="item" rel="603" zindex="1"><div class="info"><div class="name">Highlands Coffee Ten Lua HCM</div><div class="address">183-185 Tên Lửa, Phường Bình Trị Đông B, Quận Bình Tân, TP.HCM</div><div class="phone"><span>028 7109 7185</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_592" class="item" rel="592" zindex="1"><div class="info"><div class="name">Highlands Coffee 46 Vo Van Tan D3</div><div class="address">46 Võ Văn Tần, Phường Võ Thị Sáu, Quận 3, Tp. HCM</div><div class="phone"><span>028 7109 7046</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_590" class="item" rel="590" zindex="1"><div class="info"><div class="name">Highlands Coffee Faifo Lane Thu Thiem</div><div class="address">02 Phan Văn Đáng, phường Thạnh Mỹ Lợi, Quận 2, Tp. Thủ Đức, Tp. HCM</div><div class="phone"><span>028 7109 6002</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_588" class="item" rel="588" zindex="1"><div class="info"><div class="name">Highlands Coffee 123 Hoang Hoa Tham</div><div class="address">123/1 Hoàng Hoa Thám, Quận Bình Thạnh, Tp. HCM</div><div class="phone"><span>028 7109 5123</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_586" class="item" rel="586" zindex="1"><div class="info"><div class="name">Highlands Coffee UOA Tower D7</div><div class="address">06 Tân Trào, phường Tân Phú, Quận 7, Tp. HCM</div><div class="phone"><span>028 7108 0006</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 22:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_585" class="item" rel="585" zindex="1"><div class="info"><div class="name">Highlands Tan Thang Tan Phu HCM</div><div class="address">87C Bờ Bao Tân Thắng, P. Sơn Kỳ, Q. Tân Phú, TP.HCM</div><div class="phone"><span>028 7101 0087</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_576" class="item" rel="576" zindex="1"><div class="info"><div class="name">Highlands Coffee 105 Doc Lap Tan Phu</div><div class="address">105 Độc Lập, P.Tân Thành, Q.Tân Phú, TP.HCM</div><div class="phone"><span>(028) 7100 0105</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_574" class="item" rel="574" zindex="1"><div class="info"><div class="name">Highlands Coffee GREEN RIVER D8</div><div class="address">2225 Phạm Thế Hiển, P.6, Q.8 TP.HCM</div><div class="phone"><span>028 7105 2225</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_570" class="item" rel="570" zindex="1"><div class="info"><div class="name">Highlands Coffee Galleria Thu Thiem HCM</div><div class="address">A01.03, Tháp A, tòa nhà Galleria, 20 Nguyễn Thiện Thanh Str. Phường Thủ Thiêm, thành phố Thủ Đức TP.HCM</div><div class="phone"><span>(028) 7107 7103</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_569" class="item" rel="569" zindex="1"><div class="info"><div class="name">Highlands Coffee Thiso Mall Thu Thiem</div><div class="address">10 Mai Chí Thọ, Khu đô thị Thủ Thiêm, Thủ Đức, TP.HCM</div><div class="phone"><span>(028) 7108 0010</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 22:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_564" class="item detail-item-current" rel="564" zindex="1"><div class="info"><div class="name">Highlands Coffee Huy Can Thu Duc HCM</div><div class="address">111 Huy Cận, Phường Phước Long B, Thành phố Thủ Đức, TP.HCM</div><div class="phone"><span>(028) 7101 7111</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_557" class="item" rel="557" zindex="1"><div class="info"><div class="name">Highlands Coffee Coop Ly Thuong Kiet HCM</div><div class="address">497 Hòa Hảo, P.7, Q.10, TP.HCM</div><div class="phone"><span>(028) 7100 0497</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_555" class="item" rel="555" zindex="1"><div class="info"><div class="name">Highlands Coffee 417 Dien Bien Phu</div><div class="address">417-419 Điện Biên Phủ, P. 25, Q. Bình Thạnh, TP.HCM</div><div class="phone"><span>(028) 7100 0417</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_554" class="item" rel="554" zindex="1"><div class="info"><div class="name">Highlands Coffee 270C Bach Dang HCMC</div><div class="address">270C Bạch Đằng, P.24, Q.Bình Thạnh, TP.HCM</div><div class="phone"><span>(028) 7100 0270</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_553" class="item" rel="553" zindex="1"><div class="info"><div class="name">Highlands Coffee 565 Tinh Lo 10</div><div class="address">565 Tỉnh Lộ 10, P.Bình Trị Đông B, Q.Bình Tân, TP.HCM</div><div class="phone"><span>(028) 7100 0565</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 23:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div><div id="item_552" class="item" rel="552" zindex="1"><div class="info"><div class="name">HCSHCM0201 Friendship Tower D1</div><div class="address">31 Lê Duẩn, Phường Bến Nghé, Quận 1, TP.HCM</div><div class="phone"><span>(028) 7100 0031</span></div><div class="timeopen"><span>Mở cửa</span>7:00 – 22:00 * 7 ngày/ tuần</div><div class="listPa"><ul><li><i class="fa fa-wifi"></i> Wifi Miễn Phí</li><li><i class="fa fa-credit-card"></i> Thanh toán bằng thẻ</li></ul></div></div><div class="clear"></div></div></div>
+                        <div class="page-view pagination"><ul><li><span class="pagecur">1</span></li><li><a href="javascript:void(0)" onclick="myControlerObj.ChagePageIndex(1)">2</a></li><li><a href="javascript:void(0)" onclick="myControlerObj.ChagePageIndex(2)">3</a></li><li><a href="javascript:void(0)" onclick="myControlerObj.ChagePageIndex(3)">4</a></li><li><a href="javascript:void(0)" onclick="myControlerObj.ChagePageIndex(4)">5</a></li><li><a href="javascript:void(0)" onclick="myControlerObj.ChagePageIndex(1)"><i class="fa fa-angle-right"></i></a></li><li><a href="javascript:void(0)" onclick="myControlerObj.ChagePageIndex(4)"><i class="fa fa-angle-double-right"></i></a></li></ul></div>
+                    </div>
+                </div>
+                <div id="directions" style="display: none">
+                    <div id="directionsContainer">
+                        <form id="directionsForm" data-placeholder="Vị trí của bạn" onsubmit="return false;">
+                            <ol class="form">
+                                <li>
+                                    <ul id="travel-modes">
+                                        <li class="driving">
+                                            <input id="driving-rad" type="radio" name="travelMode" value="DRIVING" checked="">
+                                            <label for="driving-rad" title="Lái xe">Lái xe</label>
+                                        </li>
+                                        <li class="transit">
+                                            <input id="transit-rad" type="radio" name="travelMode" value="TRANSIT">
+                                            <label for="transit-rad" title="Chuyển tiếp">Chuyển tiếp</label>
+                                        </li>
+                                        <li class="walking">
+                                            <input id="walking-rad" type="radio" name="travelMode" value="WALKING">
+                                            <label for="walking-rad" title="Đi bộ">Đi bộ</label>
+                                        </li>
+                                        <li class="bicycling">
+                                            <input id="bicycling-rad" type="radio" name="travelMode" value="BICYCLING">
+                                            <label for="bicycling-rad" title="Đi xe đạp">Đi xe đạp</label>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="origin">
+                                    <div class="directions-input">
+                                        <label for="origin">A</label>
+                                        <input type="text" id="origin" name="origin" placeholder="Nhập vị trí" autocomplete="off" class="pac-target-input">
+                                        <p class="error">Không thể tìm thấy vị trí gốc.</p>
+                                    </div>
+                                </li>
+        
+                                <li class="destination">
+                                    <div class="directions-input">
+                                        <label for="destination">B</label>
+                                        <input type="text" id="destination" name="destination" placeholder="Nhập vị trí" readonly="">
+                                        <input type="hidden" id="destLatLng" name="destLatLng" value="">
+                                        <p class="error">Không thể tìm thấy vị trí đích.</p>
+                                    </div>
+                                </li>
+                                <li class="noRoute error" style="display:none">Không thể tìm thấy tuyến đường giữa A và B.</li>
+                                <li>
+                                    <div class="div-button">
+                                        <button type="button" id="getDirections" class="btn-direction">Nhận Chỉ đường</button>
+                                        <button type="button" id="cancelDirections" class="btn-direction">Hủy bỏ</button>
+                                    </div>
+                                </li>
+                            </ol>
+                        </form>
+                        <div id="routes"></div>
+                        <div id="directions_waiting" aria-busy="true" class="hide"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="result_map" id="viewMap" style="position: relative; zoom: 1;">
+                <div class="mapdemo showmap">
+        
+                    
+                    
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="map">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1XfNmbJudHsimHKAWiy90bs_YcjxxX1I&ehbc=2E312F" width="640" height="480"></iframe>
+    </div>
+    
+    </div>
+    </nav>
+    
+    
+    <footer>
+        <div id="footer">
+            <div class="wrapper col-full">
+                <div class=" button-lg">
+                    
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-square-youtube"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    
+                </div>
+                <div class="  copyRight">
+                    © 2018 Highlands Coffee. All rights reserved
+    
+                </div>
+                <div class=" LinkFooter">
+                    <a href="#"><i class="fa-regular fa-paper-plane"></i>    Đăng ký để nhận bản tin</a>
+                </div>
+                <div class="LinkFooter">
+                    <a href="#"><i class="fa-regular fa-envelope"></i>    customerservice@highlandscoffee.com.vn</a>
+                </div>
+    
+    
+            </div>
+                
+        </div>
+        
+    
+    </footer>
+    <script src="https://kit.fontawesome.com/4878d7799a.js" crossorigin="anonymous"></script>
+</body>
+</body>
+</html>

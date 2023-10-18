@@ -1,0 +1,229 @@
+.body_content {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidenav {
+    width: 20%;
+    background-color: #b22830;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.sidenav .title{
+    padding: 6px 8px 20px 16px;
+    font-size: 21px;
+    color: white;
+    font-weight: bold;
+    width: 80%;
+    border-bottom:1px solid white;
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    font-weight: lighter;
+}
+
+.body_content .sidenav a:hover {
+    cursor: pointer;
+    color: #798022;
+}
+
+.main {
+    margin-left: 30px;
+    /* Same as the width of the sidenav */
+    font-size: 20px;
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    width: 80%;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+.body_content .row{
+    margin-top: 20px;
+}
+.body_content .row,
+.album .row .columns .row_price {
+    display: flex;
+    flex-direction: row;
+}
+
+.body_content .columns {
+    width: 25%;
+    margin: 10px;
+}
+
+.album .row .columns img {
+    width: 100%;
+}
+
+.album .row .columns .text {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.album .row .columns .row_price .price,
+.album .row .columns .row_price .btn_detail {
+    width: 50%;
+    font-size: 16px;
+}
+
+.album .row .columns .row_price .btn_detail {
+    border: 1px solid #9a3012;
+    background-color: #9a3012;
+    color: rgb(208, 212, 150);
+    border-radius: 2px;
+}
+.album .row .columns .row_price .btn_detail a{
+    color: white;
+    text-decoration: none;
+}
+.album .row .columns .row_price .btn_detail a:hover {
+    color: rgb(29, 27, 27);
+    cursor: pointer;
+
+}
+
+.album .row .columns {
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 0.16vw 0.8vw 0 rgb(0 0 0 / 20%);
+}
+
+.album .row .columns .row_price {
+    padding: 10px 8px 20px 8px;
+}
+
+.album .row .columns .text {
+    padding-top: 10px;
+
+}
+.product_detail .row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.product_detail .row .image {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+.product_detail .row .image_main{
+    box-shadow: 0 0.16vw 0.8vw 0 rgb(0 0 0 / 30%);
+}
+.product_detail .row .image_main img {
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.product_detail .row .image_small  {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.product_detail .row .image_small div{
+  width: 100% ;
+  margin: 5px;
+}
+.product_detail .row .image_small img{
+    width: 100%   ; 
+    box-shadow: 0 0.16vw 0.8vw 0 rgb(0 0 0 / 30%);
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+.product_detail .row .detail {
+    width:65%;
+    margin-left: 40px;
+}
+.product_detail .row .detail .name a{
+    font-size: 35px;
+    font-weight: bold;
+}
+.product_detail .row .detail .name {
+    margin-bottom: 10px;
+}
+.product_detail .row .detail .type div {
+    line-height: 28px;
+}
+.product_detail .row .detail .price {
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.product_detail .row .detail .quantity{
+    margin-bottom: 25px;
+}
+.product_detail .row .detail .btn_cart a{ 
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #9a3012;
+    background-color: #9a3012;
+    color: rgb(208, 212, 150);
+    border-radius: 2px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.product_detail .row .detail .btn_cart:hover{ 
+    color: white;
+    cursor: pointer;
+}
+.product_info{
+    margin-top: 30px;
+}
+.product_info .title{
+   font-weight: bold;
+   font-size: 20px;
+   border:1px #9a3012;
+   background-color: #9a3012;
+   color: white;
+   width: 100px;
+   text-align: center;
+   border-radius: 1px;
+}
+.product_info .content{
+    font-size: 18px;
+    border: 1px solid #9a3012;
+    line-height: 30px;
+    margin-right: 20px;
+ }
+.product_info .content .top{ 
+font-size: 30px;
+font-weight: bold;
+padding: 10px 10px 10px 10px;
+
+}
+.product_info .content .text div{ 
+    padding: 10px 10px 20px 10px;
+}
+.columns a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.columns a:hover{
+    background-color: #9a3012;
+    box-shadow: 0 0 20px #9a3012;
+    color: #ffffff;
+}
+footer{
+    width: 100%;
+
+}
+.gridF {
+    margin: 0 -5px;
+}
+

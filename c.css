@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 22px;
+    
+    
+}
+.logo img{
+    border: 0px;
+    max-width: 100%;
+
+}
+.header{
+   background: #b22830;
+   display: flex;
+   padding: 14px 0px 12px;
+   position: relative;
+   align-items: center;
+   justify-content: space-between;
+
+
+}
+.contact{
+
+}
+.menu ul li:hover{
+    background-color: #53382c;
+    padding: 5px;
+}
+
+.logo{
+    min-height: 86px;
+    max-width: 110px;
+    margin-right: 90px;
+    margin-left: 80px;
+    width: 25%;
+    
+}
+footer{
+    padding-bottom: 25px;
+    background: #53382c;
+    padding: 18px 0;
+    color: white;
+}
+div{
+    display: block;
+}
+.col{
+    width:25%;
+    background: #53382c;
+    
+}
+.col-half{
+    width: 50%;
+}
+.col-full{
+    width:100%;
+
+}
+.fa-brands{
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: #ffffff;
+    color: #53382c;
+    font-size: 16px;
+    line-height: 24px;
+    
+    backface-visibility: hidden;
+    
+}
+.button-lg{
+    padding-right: 20px;
+}
+.LinkFooter{
+    padding-right: 25px;
+}
+.copyRight{
+    padding-right: 25px;
+}
+.menu{
+    list-style-type: none;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 30px;
+    
+    
+}
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 20px;
+    font-family: sans-serif;
+    font-weight: normal !important;
+    line-height: 25px;
+}
+..menu li a:hover{
+    background-color: #53382c;
+    
+}
+.search{
+    text-align: right;
+    
+    display: flex;
+}
+.search1{
+    width: 50%;
+    margin-left: 660px;
+}
+.search1#formsearch,
+.search1 button{
+    
+}
+.search2{
+    width: 50%;
+    margin-right: 180px;
+
+}
+.menutool{
+    width: 75%;
+}
+.menu .subnav{
+    display: none;
+}
+.LinkFooter a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.LinkFooter a:hover{
+    color: orange;   
+}
